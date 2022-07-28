@@ -22,9 +22,9 @@ public class ActorService {
 		return actorRepository.findById(id).orElse(null);
 	}
 	
-	public Actor save(Actor newRegion){
-		Actor region = actorRepository.save(newRegion);
-		return newRegion;
+	public Actor save(Actor newActor){
+		Actor actor = actorRepository.save(newActor);
+		return newActor;
 	}
 	
 	public void deleteById(int id){
