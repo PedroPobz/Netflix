@@ -7,6 +7,12 @@ public class Actor{
     public Actor() {
 		super();
 	}
+    
+	public Actor(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 
 	public String getName(){
         return name;
