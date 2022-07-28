@@ -1,4 +1,4 @@
-package com.gfttraining.WineDB.Validation;
+package com.gfttraining.netflix.validation;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
