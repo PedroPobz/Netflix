@@ -1,7 +1,7 @@
 package com.gfttraining.netflix.actor;
 
 public class Actor{
-	private Integer id;
+	private int id;
     private String name;
 
     public Actor() {

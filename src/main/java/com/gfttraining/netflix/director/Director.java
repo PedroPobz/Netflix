@@ -2,7 +2,7 @@ package com.gfttraining.netflix.director;
 
 public class Director{
 	
-	Integer id;
+	int id;
     private String name;
 
     public String getName(){

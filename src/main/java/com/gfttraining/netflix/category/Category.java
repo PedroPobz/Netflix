@@ -2,7 +2,7 @@ package com.gfttraining.netflix.category;
 
 public class Category{
 	
-	private Integer id;
+	private int id;
     private String name;
 
     public Category() {

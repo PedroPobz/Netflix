@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 @Entity
 public class Title {
 
-	
+	private int id;
 	private Integer title;
 	private String date_added;
 	private String release_year;
